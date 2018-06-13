@@ -1,0 +1,84 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #white;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.brown-text {
+	padding-top:10px;
+	color: green;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.border-resize {
+	width: 200px;
+	height: 150px;
+}
+.border-resize-gq {
+	width: 70px;
+	height: 50px;
+}
+
+#container {
+	width: 300px;
+	margin: 0 auto;
+}
+
+/* Nicely lines up the labels. */
+form label {
+	display: inline-block;
+	width: 140px;
+}
+
+/* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+form input[type="text"], form input[type="password"], form .line {
+	clear: both;
+}
+
+form .line.submit {
+	text-align: right;
+}
+
+p {
+  margin: 0;
+  padding: 0; 
+}
+
+hr{
+	margin-bottom:10px;
+}
+.newUser{
+	margin:auto;
+}
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+th{
+	background-color: green;
+}
+table, th {
+    border-spacing: 10px;
+}
+th, td {
+    padding: 10px;
+}
